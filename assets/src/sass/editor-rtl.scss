@@ -1,0 +1,706 @@
+#emshelementor-template-modal .dialog-widget-content {
+    background-color: #f1f3f5;
+    width: 100%;
+}
+@media (max-width: 1439px) {
+    #emshelementor-template-modal .dialog-widget-content {
+        max-width: 990px;
+    }
+}
+@media (min-width: 1440px) {
+    #emshelementor-template-modal .dialog-widget-content {
+        max-width: 1200px;
+    }
+}
+#emshelementor-template-modal .dialog-widget-header,
+#emshelementor-template-modal .dialog-header {
+    padding: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+#emshelementor-template-modal .dialog-buttons-wrapper {
+    display: none;
+}
+#emshelementor-template-modal a,
+#emshelementor-template-modal a:hover {
+    color: inherit;
+}
+#emshelementor-template-modal a.elementor-template-library-blank-footer-link {
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+#emshelementor-template-modal a.elementor-template-library-blank-footer-link:hover {
+    color: #9b0a46;
+}
+#emshelementor-template-modal .elementor-button {
+    text-transform: uppercase;
+}
+#emshelementor-template-modal ::-webkit-scrollbar {
+    width: 6px;
+    height: 0;
+    border-radius: 3px;
+}
+#emshelementor-template-modal ::-webkit-scrollbar-button {
+    width: 0;
+    height: 10px;
+}
+#emshelementor-template-modal ::-webkit-scrollbar-thumb {
+    background-color: #d5dadf;
+    border: 0 none #d5dadf;
+    border-radius: 0;
+    border-radius: 3px;
+}
+#emshelementor-template-modal ::-webkit-scrollbar-track {
+    border: 0 none #fff;
+    border-radius: 0;
+}
+#emshelementor-template-modal ::-webkit-scrollbar-corner {
+    background: transparent;
+}
+#emshelementor-template-modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 50px;
+}
+
+#emshelementor-template-modal-header #emshelementor-template-modal-header-title{
+    float: left;
+    margin-left: 15px;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+}
+
+.emshelementor-template-modal-header-title__logo {
+    display: inline-block;
+    max-width: 28px;
+    margin: 0 10px 0 10px;
+}
+
+.emshelementor-template-modal-header-title__logo img {
+    max-width: 28px;
+    border-radius: 100%;
+}
+
+#emshelementor-template-modal-header .emshelementor-template-modal-back {
+    background: none;
+    border: none;
+    border-left: 1px solid #e6e9ec;
+    padding: 15px 15px 15px 20px;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    outline: none;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    cursor: pointer;
+    color: #6d7882;
+}
+#emshelementor-template-modal-header .emshelementor-template-modal-back:not(:hover) {
+    color: #a4afb7;
+}
+#emshelementor-template-modal-header .elementor-button {
+    padding: 8px 10px;
+}
+#emshelementor-template-modal-header-close-modal {
+    width: 45px;
+    border-right: 1px solid #e6e9ec;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    margin-right: auto;
+}
+#emshelementor-template-modal-header-close-modal i {
+    color: #a4afb7;
+    font-size: 16px;
+}
+#emshelementor-template-modal-header-close-modal:hover i {
+    color: #6d7882;
+}
+#emshelementor-template-modal-header-actions .template-library-activate-license {
+    display: block;
+    padding: 8px 10px;
+    color: #fff;
+}
+#emshelementor-template-modal-header-actions {
+    min-width: 200px;
+}
+
+@media (max-width: 768px) {
+    #emshelementor-template-modal-header-actions {
+        min-width: auto;
+    }
+}
+#emshelementor-template-modal-header-actions
+    .template-library-activate-license:hover {
+    color: #fff;
+    opacity: 0.85;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.12),
+        0 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+#emshelementor-template-modal .elementor-library-error {
+    margin: 18% 0 0;
+}
+#emshelementor-template-modal .elementor-library-error-message {
+    font-size: 18px;
+    padding: 0 0 20px;
+}
+#emshelementor-template-modal .elementor-library-error-link a {
+    display: inline-block;
+    color: #fff;
+    background-image: none;
+    background: #f47216;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1;
+    height: 40px;
+    line-height: 40px;
+    min-width: 170px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#emshelementor-template-modal .elementor-library-error-link a:hover {
+    opacity: 0.85;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.12),
+        0 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+#emshelementor-modal-tabs-items {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#emshelementor-modal-tabs-items .elementor-template-library-menu-item {
+    height: 100%;
+    padding: 0;
+    width: auto;
+}
+
+#emshelementor-modal-tabs-items .elementor-template-library-menu-item label {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#emshelementor-modal-tabs-items .elementor-template-library-menu-item input[type=radio] {
+    opacity: 0;
+    width: 1px;
+}
+
+#emshelementor-modal-tabs-items .elementor-template-library-menu-item label span {
+    height: 100%;
+    padding: 0 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#emshelementor-modal-tabs-items .elementor-template-library-menu-item label input[type="radio"]:checked + span {
+    border-bottom: 3px solid #f47216;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f1f3f5), to(#fff));
+    background-image: -webkit-linear-gradient(top, #f1f3f5, #fff);
+    background-image: -o-linear-gradient(top, #f1f3f5, #fff);
+    background-image: linear-gradient(to bottom, #f1f3f5, #fff);
+}
+#emshelementor-template-modal-header-tabs {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#emshelementor-template-modal-header-tabs > div {
+    height: 100%;
+}
+
+#emshelementor-template-modal-header-logo-area {
+    text-align: right;
+    padding-right: 15px;
+}
+#emshelementor-template-modal-header-logo-area > * {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#emshelementor-template-modal-header-logo .emshelementor-template-modal-header-logo-icon {
+    margin-left: 5px;
+}
+#emshelementor-template-modal-header-logo
+    .emshelementor-template-modal-header-logo-icon
+    img {
+    width: 30px;
+    height: 30px;
+}
+#emshelementor-template-modal-header-logo {
+    color: #495157;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+#emshelementor-template-library-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: calc(100% - 20px);
+}
+#emshelementor-template-library-content .emshelementor-filters-list {
+    width: 18%;
+    padding: 0px 0px 10px 10px;
+    height: 100%;
+    overflow: auto;
+}
+#emshelementor-template-library-content .emshelementor-templates-wrap {
+    width: 100%;
+}
+
+div#elementor-template-library-filter-text-wrapper {
+    float: right;
+}
+
+#emshelementor-template-library-content .emshelementor-templates-list {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin-top: 42px;
+    padding: 0 10px;
+}
+#emshelementor-template-library-content .emshelementor-keywords-list {
+    padding-right: 10px;
+}
+div#elementor-template-library-filter-text-wrapper {
+    float: right;
+    margin-right: 20px;
+}
+#elementor-template-library-filter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+#elementor-template-library-filter label {
+    color: #6d7882;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 0.5em;
+}
+#emshelementor-template-modal .elementor-loader {
+    position: relative;
+    background-color: hsla(0,0%,100%,.9);
+}
+#emshelementor-template-modal .elementor-loader .elementor-loader-box:first-of-type {
+    left: 40px;
+    top: 40px;
+    width: 14px;
+    height: 70px;
+}
+#emshelementor-template-modal .elementor-loader .elementor-loader-box:nth-of-type(2) {
+    top: 40px;
+}
+#emshelementor-template-modal .elementor-loader .elementor-loader-box:nth-of-type(3) {
+    top: 68px;
+}
+#emshelementor-template-modal .elementor-loader .elementor-loader-box:nth-of-type(4) {
+    bottom: 40px;
+}
+#emshelementor-template-modal
+    .elementor-loader
+    .elementor-loader-box:not(:first-of-type) {
+    right: 40px;
+    height: 14px;
+    width: 42px;
+}
+#emshelementor-template-library-content .emshelementor-template-filter-label {
+    display: block;
+    position: relative;
+    text-align: right;
+    padding: 9px 0;
+}
+#emshelementor-template-library-content
+    .emshelementor-template-filter-label
+    input[type="radio"] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    opacity: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.emshelementor-template-filter-label span {
+    color: #6d7882;
+    text-transform: uppercase;
+}
+#emshelementor-template-library-content .emshelementor-template-filter-label:hover span,
+#emshelementor-template-library-content
+    .emshelementor-template-filter-label
+    input:checked
+    + span {
+    color: #f47216;
+}
+#emshelementor-template-library-content .emshelementor-template-filter-item {
+    border-top: 1px solid rgba(213, 218, 223, 0.5);
+}
+#emshelementor-template-library-content .emshelementor-template-filter-item:first-child {
+    border-top: none;
+}
+#emshelementor-template-library-content .emshelementor-templates-wrap {
+    width: 100%;
+}
+#emshelementor-template-library-content .emshelementor-template-insert {
+    padding: 5px 12px;
+}
+#emshelementor-template-library-content .emshelementor-template-insert i {
+    margin-left: 2px;
+}
+#emshelementor-template-library-content .emshelementor-template-insert span {
+    font-size: 11px;
+}
+#emshelementor-template-library-content .elementor-template-library-template-name {
+    width: 200px;
+}
+#emshelementor-modal-templates-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+#emshelementor-modal-templates-container .elementor-template-library-template {
+    position: relative;
+    background: #fff;
+}
+#emshelementor-modal-templates-container .emshelementor-template-pro::before {
+    position: absolute;
+    left: -76px;
+    top: 2px;
+    content: "PRO";
+    z-index: 10;
+    width: 180px;
+    height: 20px;
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0px 1px 3px #888888;
+    background: #f47216;
+    border-top: 5px solid #f47216;
+    border-bottom: 5px solid #f47216;
+    -webkit-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+}
+#emshelementor-modal-templates-container .elementor-template-library-template-remote {
+    width: calc(33.3333% - 30px);
+}
+@media (max-width: 1000px) {
+    #emshelementor-modal-templates-container .elementor-template-library-template-remote {
+        width: calc(50% - 30px);
+    }
+
+    #emshelementor-template-library-content .emshelementor-filters-list {
+        width: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    #emshelementor-modal-templates-container .elementor-template-library-template-remote {
+        width: calc(100% - 30px);
+    }
+
+    #emshelementor-template-library-content .emshelementor-filters-list {
+        width: 30%;
+    }
+}
+
+@media (max-width: 600px) {
+    #emshelementor-template-library-content .emshelementor-filters-list {
+        width: 40%;
+    }
+}
+#emshelementor-template-library-content
+    #emshelementor-modal-templates-container
+    .elementor-template-library-template-controls {
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    bottom: -15px;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    justify-content: center;
+    padding: 9px 8px 9px 10px;
+    z-index: 10;
+}
+#emshelementor-template-library-content
+    #emshelementor-modal-templates-container
+    .elementor-template-library-template:hover
+    .elementor-template-library-template-controls {
+    bottom: 0;
+}
+#emshelementor-template-library-content
+    #emshelementor-modal-templates-container
+    .emshelementor-template-insert {
+    padding: 0;
+    margin: 0;
+    color: #39b54a;
+    background: none;
+    text-transform: none;
+    font-size: 12px;
+}
+#emshelementor-template-library-content
+    #emshelementor-modal-templates-container
+    .emshelementor-clone-template {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: #9b0a46;
+    cursor: pointer;
+    display: none;
+    font-size: 12px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    font-weight: bold;
+}
+div.emshelementor-template-has-url:hover .emshelementor-clone-template {
+    display: block !important;
+}
+#emshelementor-template-library-content
+    #emshelementor-modal-templates-container
+    .emshelementor-template-insert:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#emshelementor-template-library-content
+    #emshelementor-modal-templates-container
+    .elementor-template-library-template-name {
+    padding: 5px 0 0;
+    text-align: center;
+    display: block !important;
+}
+#emshelementor-template-library-content
+    #emshelementor-modal-templates-container
+    .elementor-template-library-template-name-holder {
+    height: 23px;
+}
+#emshelementor-template-library-content
+    #emshelementor-modal-templates-container
+    .template-library-activate-license {
+    display: none;
+    color: #fcb92c;
+    font-size: 12px;
+}
+#emshelementor-template-library-content
+    #emshelementor-modal-templates-container
+    .template-library-activate-license:hover {
+    color: #d89403;
+}
+#emshelementor-template-library-content
+    #emshelementor-modal-templates-container
+    .elementor-template-library-template:hover
+    .elementor-template-library-template-name {
+    opacity: 0;
+}
+.library-tab-emshelementor_page
+    #emshelementor-modal-templates-container
+    .elementor-template-library-template-remote {
+    width: calc(25% - 20px);
+    margin: 10px;
+}
+.library-tab-emshelementor_page
+    #emshelementor-modal-templates-container
+    .elementor-template-library-template-remote
+    .elementor-template-library-template-action {
+    padding: 8px;
+}
+#emshelementor-modal-templates-container
+    .emshelementor-template-no-url
+    .elementor-template-library-template-preview {
+    cursor: default !important;
+    opacity: 0 !important;
+}
+#emshelementor-modal-templates-container .emshelementor-template-no-url .fa-search-plus {
+    display: none !important;
+}
+#emshelementor-modal-templates-container
+    .elementor-template-library-template:hover
+    .template-library-activate-license {
+    display: block !important;
+}
+.elementor-template-library-template-screenshot img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/* * Preview Iframe */
+#emshelementor-templatate-item-preview-wrap,
+#emshelementor-templatate-item-preview-wrap .emshelementor-template-item-preview-iframe {
+    height: 100%;
+    overflow: hidden;
+}
+#emshelementor-templatate-item-preview-wrap iframe {
+    height: 140%;
+    -webkit-transform: scale(0.666) translateX(25%) translateY(-25%);
+    -ms-transform: scale(0.666) translateX(25%) translateY(-25%);
+    transform: scale(0.666) translateX(25%) translateY(-25%);
+}
+@media (max-width: 1439px) {
+    #emshelementor-templatate-item-preview-wrap iframe {
+        width: 1440px;
+    }
+}
+@media (min-width: 1440px) {
+    #emshelementor-templatate-item-preview-wrap iframe {
+        width: 1710px;
+    }
+}
+.emshelementor-template-item-notice div {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bcdff1;
+    padding: 15px;
+    border-right: 5px solid #bcdff1;
+    position: relative;
+    text-align: right;
+    margin-bottom: 8px;
+}
+
+.elementor-template-library-template-title {
+    align-items: center;
+    display: inline-block;
+}
+
+.elementor-template-library-template-title span {
+    padding-bottom: 2px;
+    float: left;
+    font-size: 10px;
+}
+
+#emshelementor-template-modal.dialog-type-lightbox .dialog-message {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#emshelementor-template-modal-empty{
+    width: 100%;
+}
+
+.emshelementor-template--thumb .emshelementor-template--label {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    text-align: left;
+}
+
+.emshelementor-template--thumb .emshelementor-template--tag {
+    background-color: #EF3E46;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 4px;
+    margin-bottom: 2px;
+    font-size: 10px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.emshelementor-template--tag.emshelementor-template--pro {
+    background-color: #93003c;
+}
+
+.emshelementor-template--tag.emshelementor-template--ld {
+    background-color: #0090E7;
+}
+
+.emshelementor-template--tag.emshelementor-template--llms {
+    background-color: #466dd8;
+}
+
+.emshelementor-template--tag.emshelementor-template--woo {
+    background-color: #674399;
+}
+
+.emshelementor-template--tag.emshelementor-template--tec {
+    background-color: #1c39bb;
+}
+
+.emshelementor-template--thumb .emshelementor-template--sep {
+    display: block;
+    width: 100%;
+}

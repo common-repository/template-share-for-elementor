@@ -1,0 +1,29 @@
+{
+    "remotePath": "./public_html/elements-share-demo/wp-content/plugins/template-share-for-elementor/",
+    "host": "divdojo.com",
+    "username": "divdojoc",
+    "password": "N94N]HJq2q]2kw",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.gitignore",
+        "\\.DS_Store",
+        "node_modules"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}

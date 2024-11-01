@@ -1,0 +1,81 @@
+.emsh-admin {
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    input[type="text"], input[type="number"] {
+        min-width: 300px;
+    }
+
+    .cpy-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #license_key {
+        pointer-events: none;
+        cursor: pointer;
+    }
+
+    select {
+        width: 100%;
+        max-width: 600px;
+    }
+
+}
+
+.emsh-notice {
+    padding: 14px;
+}
+
+.emsh-connected, .emsh-notconnected, .emsh-expired {
+    padding: 10px;
+    display: inline-block;
+}
+
+.emsh-notconnected {
+    background-color: rgba(0,0,0,.07);
+}
+
+.emsh-connected {
+    background-color: #c4ebc4;
+    color: green;
+}
+
+.emsh-expired {
+    background-color: #ffc8c9;
+    color: red;
+}
+
+li.single-connected-site {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.emsh-single-sortable-item {
+    border: 1px solid grey;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f0f0f1;
+    cursor: move;
+
+    select, input[type=text], input[type=url] {
+        width: 100%;
+    }
+
+    &.dummy {
+        display: none;
+    }
+}
+
+.tg-delete-item {
+    float: right;
+    margin-top: 20px !important;
+}
+
+.clear {
+    clear: both;
+}
